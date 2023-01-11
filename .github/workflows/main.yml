@@ -31,17 +31,18 @@ jobs:
       - name: Run step if any file(s) in the en folder change
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
-          echo "One or more files in the en folder has changed."
-          echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
+          #echo "One or more files in the en folder has changed."
+          #echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
           #echo "loop start"
-          #for file in ${{ steps.changed-files-specific.outputs.all_changed_files }}; do
-          #done
+          for file in ${{ steps.changed-files-specific.outputs.all_changed_files }}; do
+          - name: Read file content
+            id: package
+            uses: juliangruber/read-file-action@v1
+            with:
+            path: ./$file
+          - name: Echo file content
+            run: echo "${{ steps.package.outputs.content }}"
+          done
           #echo "loop end"
           
-      - name: Read file content
-        id: package
-        uses: juliangruber/read-file-action@v1
-        with:
-          path: ./${{ steps.changed-files-specific.outputs.all_changed_files }}
-      - name: Echo file content
-        run: echo "${{ steps.package.outputs.content }}"
+      
