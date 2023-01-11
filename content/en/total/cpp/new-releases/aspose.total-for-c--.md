@@ -17,7 +17,7 @@ weight: 1
 ---
 
 {{< Releases/ReleasesWapper >}}
-  {{< Releases/ReleasesHeading H2txt=" Aspose.Total for C++" imagelink="/resources/img/zip-icon.png">}}
+  {{< Releases/ReleasesHeading H2txt=" Aspose.Total for hjh C++" imagelink="/resources/img/zip-icon.png">}}
   {{< Releases/ReleasesButtons >}}
     {{< Releases/ReleasesSingleButtons text=" Download" link="/total/cpp/new-releases/aspose.total-for-c--/534b1980fd16471680bac6f7c9445eff%20%20" >}}
     {{< Releases/ReleasesSingleButtons text=" Support Forum " link="https://forum.aspose.com/c/total" >}}
