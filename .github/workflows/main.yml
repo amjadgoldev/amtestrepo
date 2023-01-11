@@ -42,6 +42,6 @@ jobs:
         id: package
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./content/en/words/_index.md
+          path: ./${{ steps.changed-files-specific.outputs.all_changed_files }}
       - name: Echo file content
         run: echo "${{ steps.package.outputs.content }}"
