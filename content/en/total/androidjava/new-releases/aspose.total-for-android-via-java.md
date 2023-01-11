@@ -43,7 +43,7 @@ weight: 1
     {{< /Releases/ReleasesDetailsUl >}}
 
   {{< Releases/ReleasesFileFeatures >}}
-      <h4>Description</h4><div class="HTMLDescription">Aspose.Total for Android contains most recent version of all Android products.</div>
+      <h4>Description</h4><div class="HTMLDescription">Aspose.Total for Android contaiffffns most recent version of all Android products.</div>
   {{< /Releases/ReleasesFileFeatures >}}
  {{< /Releases/ReleasesFileArea >}}
 {{< /Releases/ReleasesWapper >}}
