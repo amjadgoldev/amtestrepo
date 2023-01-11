@@ -36,14 +36,14 @@ jobs:
           #echo "loop start"
           for file in ${{ steps.changed-files-specific.outputs.all_changed_files }}; do
           
-            - name: Read file content
-              id: package
-              uses: juliangruber/read-file-action@v1
-              with:
-                path: ./$file
-            - name: Echo file content
-              run: echo "${{ steps.package.outputs.content }}"
-              
+            #- name: Read file content
+              #id: package
+              #uses: juliangruber/read-file-action@v1
+              #with:
+                #path: ./$file
+            #- name: Echo file content
+              #run: echo "${{ steps.package.outputs.content }}"
+              echo $file
           done
           #echo "loop end"
           
