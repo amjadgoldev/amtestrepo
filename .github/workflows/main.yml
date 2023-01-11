@@ -60,4 +60,4 @@ jobs:
              echo $p | sed -e 's/\/content//' | sed -e 's/new-releases/*/' | sed -e 's/$/\//' | sed -e 's/\/\//\//' | sed -e 's/*\//*/'
           done | sort | uniq | tr '\n' ' ' > .updated_files
           
-          echo echo "${{ .updated_files }}"
+          #echo echo "${{ .updated_files }}"
