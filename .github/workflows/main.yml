@@ -34,7 +34,7 @@ jobs:
           echo "One or more files in the en folder has changed."
           echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
           echo "loop start"
-          for file in ${{ steps.changed-files-specific.all_changed_files }}; do
+          for file in ${{ steps.changed-files-specific.outputs.all_changed_files }}; do
             echo "$file was changed"
           done
           echo "loop end"
