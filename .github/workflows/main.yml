@@ -24,7 +24,7 @@ jobs:
         id: changed-files-specific
         uses: tj-actions/changed-files@v35
         with:
-          separator: ","
+          #separator: ","
           files: |
             content/en/**
 
