@@ -17,7 +17,7 @@ weight: 1
 ---
 
 {{< Releases/ReleasesWapper >}}
-  {{< Releases/ReleasesHeading H2txt=" Aspose.Total for jjf Android via Java hjhj" imagelink="/resources/img/zip-icon.png">}}
+  {{< Releases/ReleasesHeading H2txt=" Aspose.Total for jjf Arrndroid via Java hjhj" imagelink="/resources/img/zip-icon.png">}}
   {{< Releases/ReleasesButtons >}}
     {{< Releases/ReleasesSingleButtons text=" Download" link="/total/androidjava/new-releases/aspose.total-for-android-via-java/a5a33797f13c474d8172e4680439f294%20%20" >}}
     {{< Releases/ReleasesSingleButtons text=" Support Forum " link="https://forum.aspose.com/c/total" >}}
