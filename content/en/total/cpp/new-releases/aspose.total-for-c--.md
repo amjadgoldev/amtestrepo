@@ -43,7 +43,7 @@ weight: 1
     {{< /Releases/ReleasesDetailsUl >}}
 
   {{< Releases/ReleasesFileFeatures >}}
-      <h4>Description</h4><div class="HTMLDescription">Aspose.Total for C++ contains most recent version of all C++ products.</div>
+      <h4>Description</h4><div class="HTMLDescription">Aspose.Total for C++ contains  dfd most recent version of all C++ products.</div>
   {{< /Releases/ReleasesFileFeatures >}}
  {{< /Releases/ReleasesFileArea >}}
 {{< /Releases/ReleasesWapper >}}
