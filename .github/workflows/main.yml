@@ -33,10 +33,10 @@ jobs:
         run: |
           echo "One or more files in the en folder has changed."
           echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
-          echo "loop start"
-          for file in ${{ steps.changed-files-specific.outputs.all_changed_files }}; do
-          done
-          echo "loop end"
+          #echo "loop start"
+          #for file in ${{ steps.changed-files-specific.outputs.all_changed_files }}; do
+          #done
+          #echo "loop end"
           
       - name: Read file content
         id: package
