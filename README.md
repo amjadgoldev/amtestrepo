@@ -3,8 +3,10 @@
 ## Manage Total.Net Release
 
 Navigate to MANAGE TOTAL.NET RELEASE Section
-Click Manage Total.Net
 
+  - Click Manage Total.Net
+  - Select All Releses
+  - Submit  Generate Zip File (this will take some time download all files compress and upload Aspose.Total_dll_only.zip)
 
 ## Usage
 
