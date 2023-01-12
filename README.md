@@ -34,7 +34,7 @@ Sometimes upload stucks due to timeout
   - Refresh page
   - click on  "Upload Missing Files" button (check which files missing i.e not downloaded )
   - Select Releases which are missing (in case no file is missing then "it means compress or upload process failed" then select one release)
-  - Submit Generate Zip File  (this download only selected compress and upload Aspose.Total_dll_only.zip)
+  - Submit Generate Zip File  (this download only selected release file COMPRESS and UPLOAD )
 
 ## Manage Total.Java
 
