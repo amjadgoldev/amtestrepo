@@ -21,48 +21,20 @@ Navigate to FILE/RELEASE ADMINSTRATION
   - Update `date_added` (YYYY-mm-dd 00:00:00) and `S3 Url` (copied in Upload Process) 
   - Submit Update Button
   
-## Usage
+## Debugging (in case of failure Upload Process )
 
-### Installing
+### view downloaded files
+ 
+  - click on  "Upload Missing Files" button (view downloaded files)
 
-In order to use this makefile you will need to make sure that the following
-dependencies are installed on your system:
-  - GNU make
-  - Pandoc
-  - LuaLaTeX
-  - DejaVu Sans fonts
+### Failed Due to Timeout
 
-### Folder structure
-
-Here's a folder structure for a Pandoc document:
-
-```
-my-document/     # Root directory.
-|- build/        # Folder used to store builded (output) files.
-|- src/          # Markdowns files; one for each chapter.
-|- images/       # Images folder.
-|- metadata.yml  # Metadata content (title, author...).
-|- Makefile      # Makefile used for building our documents.
-```
-
-### Setup generic data
-
-Edit the *metadata.yml* file to set configuration data:
-
-```yml
----
-title: My document title
-author: Ralph Huwiler
-rights:  Creative Commons Attribution 4.0 International
-language: en-US
-tags: [document, my-document, etc]
-abstract: |
-  Your summary text.
----
-```
-
-You can find the list of all available keys on [this
-page](http://pandoc.org/MANUAL.html#extension-yaml_metadata_block).
+Sometimes upload stucks due to timeout
+  
+  - Refresh page
+  - click on  "Upload Missing Files" button (check whicg files are now downloaded)
+  - Select Releases with missing file
+  - Submit  Generate Zip File  (this download only selected compress and upload Aspose.Total_dll_only.zip)
 
 ### Creating chapters
 
