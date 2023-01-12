@@ -2,12 +2,25 @@
 
 ## Manage Total.Net Release
 
+## Upload Process
+
 Navigate to MANAGE TOTAL.NET RELEASE Section
 
   - Click Manage Total.Net
   - Select All Releses
   - Submit  Generate Zip File (this will take some time download all files compress and upload Aspose.Total_dll_only.zip)
+  - After successfully Upload (Copy s3 url)
+ 
+## Update Total.Net Relese File
 
+Navigate to FILE/RELEASE ADMINSTRATION
+
+  - Click View All Releases/Files 
+  - Select Filter Product Family (Aspose.Total Product Family) and Product (Aspose.Total for .NET)
+  - Click Manul Edit Release Link
+  - Update `date_added` (YYYY-mm-dd 00:00:00) and `S3 Url` (copied in Upload Process) 
+  - Submit Update Button
+  
 ## Usage
 
 ### Installing
