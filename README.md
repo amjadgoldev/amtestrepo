@@ -54,8 +54,8 @@ Upload Process is similar Total.Net
 
 ### Upload Process
   -  (Click Manage Total.C++)
-  - Remaing Process is similar to Total.C++
+  - Remaing Process is similar to Total.Net
 
 ## Update Total.Java Relese File
-  - Remaing Process is similar to Total.C++
+  - Remaing Process is similar to Total.Net
   - Select Filter Product Family (Aspose.C++ Product Family) and Product (Aspose.Total for C++)
