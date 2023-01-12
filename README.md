@@ -32,9 +32,9 @@ Navigate to FILE/RELEASE ADMINSTRATION
 Sometimes upload stucks due to timeout
   
   - Refresh page
-  - click on  "Upload Missing Files" button (check whicg files are now downloaded)
-  - Select Releases with missing file
-  - Submit  Generate Zip File  (this download only selected compress and upload Aspose.Total_dll_only.zip)
+  - click on  "Upload Missing Files" button (check which files missing i.e not downloaded )
+  - Select Releases which are missing (in case no file is missing then "it means compress or upload process failed" then select one release)
+  - Submit Generate Zip File  (this download only selected compress and upload Aspose.Total_dll_only.zip)
 
 ### Creating chapters
 
